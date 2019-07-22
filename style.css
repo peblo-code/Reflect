@@ -1,0 +1,57 @@
+body {
+    background-color: #111111;
+    margin: 0;
+}
+
+header {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.enterpise-name {
+    font-family: 'Bungee Outline', cursive;
+    font-size: 2.5em;
+    color: #FFC800;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: inherit;
+}
+
+ol {
+    font-family: 'Roboto', sans-serif;
+
+    list-style: none;
+    display: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+ol li {
+    display: inherit;
+    margin-left: 1em; 
+}
+
+.hero {
+    margin: 0;
+    padding: 0;
+    height: 28em;
+}
+
+.hero figure {
+    margin: inherit;
+    height: inherit;
+    padding: inherit;
+}
+
+.hero figure img {
+    width: 100%;
+    object-fit: cover;
+    height: inherit;
+    margin: inherit;
+    padding: inherit;
+}
