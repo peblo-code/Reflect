@@ -1,13 +1,56 @@
+@font-face {
+    font-family: 'icomoon';
+    src:  url('fonts/icomoon.eot?ooimdw');
+    src:  url('fonts/icomoon.eot?ooimdw#iefix') format('embedded-opentype'),
+      url('fonts/icomoon.ttf?ooimdw') format('truetype'),
+      url('fonts/icomoon.woff?ooimdw') format('woff'),
+      url('fonts/icomoon.svg?ooimdw#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    font-size: 5em;
+    color: #FFC800;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-office:before {
+    content: "\e903";
+  }
+  .icon-equalizer:before {
+    content: "\e992";
+  }
+  .icon-earth:before {
+    content: "\e9ca";
+  }
+
 body {
     background-color: #111111;
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 header {
     color: white;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+}
+
+.container {
+    margin: 0 5em 0;
 }
 
 .enterpise-name {
@@ -24,7 +67,6 @@ nav {
 
 ol {
     font-family: 'Roboto', sans-serif;
-
     list-style: none;
     display: inherit;
     margin: 0;
@@ -56,12 +98,11 @@ ol li {
     background-color: rgba(1, 1, 1, .8);
     border-radius: 14px;
     display: grid;
-    grid-template-columns: 18em;
-    grid-template-rows: 3em;
-    margin-left: 4em;
+    grid-template-columns: 16em;
+    grid-template-rows: 2.5em;
     padding: 1em;
     font-family: 'Open Sans', sans-serif;
-    font-size: 1.7em;
+    font-size: 1.5em;
     justify-content: center;
 }
 
@@ -81,4 +122,39 @@ ol li {
     padding: inherit;
     position: absolute;
     display: inherit;
+}
+
+.description {
+    display: grid;
+    grid-auto-flow: column;
+    grid-gap: 4em;
+    grid-template-rows: 25em;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-top: 6.6em; 
+    padding-bottom: 6.6em;
+}
+
+.description-box {
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-rows: 12em 2em 1fr;
+    background-color: #222222;
+    box-shadow: inset 10px 10px 7px -11px rgba(0,0,0,1);
+    border-radius: 10px;
+    color: white;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.item h1 {
+    color: #FFC800;
+}
+
+.item p {
+    font-size: 1em;
 }
