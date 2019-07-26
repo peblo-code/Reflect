@@ -47,6 +47,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 15vh;
 }
 
 .container {
@@ -78,10 +79,15 @@ ol li {
     margin-left: 1em; 
 }
 
+a {
+    color: white;
+    text-decoration: none;
+}
+
 .hero {
     margin: 0;
     padding: 0;
-    height: 28em;
+    height: 80vh;
 }
 
 .hero figure {
@@ -124,14 +130,22 @@ ol li {
     display: inherit;
 }
 
+.titles {
+    margin: 0;
+    margin-top: 1.3em;
+    color: red;
+    font-family: 'Teko', sans-serif;
+    font-size: 4em;
+}
+
 .description {
     display: grid;
     grid-auto-flow: column;
     grid-gap: 4em;
     grid-template-rows: 25em;
     grid-template-columns: 1fr 1fr 1fr;
-    padding-top: 6.6em; 
-    padding-bottom: 6.6em;
+    padding-top: 3.3em; 
+    padding-bottom: 2.6em;
 }
 
 .description-box {
@@ -139,16 +153,16 @@ ol li {
     grid-auto-flow: row;
     grid-template-rows: 12em 2em 1fr;
     background-color: #222222;
-    box-shadow: inset 10px 10px 7px -11px rgba(0,0,0,1);
     border-radius: 10px;
     color: white;
+    align-items: center;
 }
 
 .item {
-    display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
+    padding: 1em;
 }
 
 .item h1 {
@@ -157,4 +171,39 @@ ol li {
 
 .item p {
     font-size: 1em;
+}
+
+.about-section {
+    display: flex;
+    color: white;
+    align-items: center;
+    margin-bottom: 6.6em; 
+}
+
+.about-img {
+    height: 15em;
+    border-radius: 50%;
+}
+
+.about-img img {
+    height: inherit;
+    width: inherit;
+    border-radius: inherit;
+}
+
+.about-text p {
+    text-align: justify;
+    color: #888888;
+}
+
+footer {
+    display: flex;
+    background-color:white; 
+    justify-content: center;
+}
+
+footer a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
 }
