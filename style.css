@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'icomoon';
-    src:  url('fonts/icomoon.eot?5wcpjf');
-    src:  url('fonts/icomoon.eot?5wcpjf#iefix') format('embedded-opentype'),
-      url('fonts/icomoon.ttf?5wcpjf') format('truetype'),
-      url('fonts/icomoon.woff?5wcpjf') format('woff'),
-      url('fonts/icomoon.svg?5wcpjf#icomoon') format('svg');
+    src:  url('fonts/icomoon.eot?3mq0ty');
+    src:  url('fonts/icomoon.eot?3mq0ty#iefix') format('embedded-opentype'),
+      url('fonts/icomoon.ttf?3mq0ty') format('truetype'),
+      url('fonts/icomoon.woff?3mq0ty') format('woff'),
+      url('fonts/icomoon.svg?3mq0ty#icomoon') format('svg');
     font-weight: normal;
     font-style: normal;
   }
@@ -13,8 +13,8 @@
     /* use !important to prevent issues with browser extensions that change fonts */
     font-family: 'icomoon' !important;
     speak: none;
-    font-size: 5em;
     color: #FFC800;
+    font-size: 5em;
     font-style: normal;
     font-weight: normal;
     font-variant: normal;
@@ -32,9 +32,6 @@
   .icon-equalizer:before {
     content: "\e992";
   }
-  .icon-menu:before {
-    content: "\e9bd";
-  }
   .icon-earth:before {
     content: "\e9ca";
   }
@@ -50,7 +47,6 @@
   .icon-github:before {
     content: "\eab0";
   }
-  
 
 body {
     background-color: #111111;
@@ -243,7 +239,6 @@ footer a {
 }
 
 @media screen and (max-width: 910px){
-    }
     .description {
         grid-auto-flow: initial;
         grid-template-columns: initial;
@@ -311,12 +306,21 @@ footer a {
     }
 }
 
+@media screen and (max-width:540px) {
+    .hero-text {
+        font-size: .5em;
+    }
+}
+
 @media screen and (max-width:375px) {
     header {
         height: 10vh;
     }
     .container {
         margin: 0 3em 0;
+    }
+    .hero-text {
+        font-size: .5em;
     }
     .enterpise-name {
         font-size: 1em;
