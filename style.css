@@ -295,7 +295,7 @@ footer a {
     }
 
     .description {
-        grid-template-rows: 0;
+        grid-template-rows: 1fr;
     }
 
     .description-box {
