@@ -298,6 +298,9 @@ footer a {
     .description-box {
         grid-template-rows: 6em 2em 1fr;
     }
+    .about-img {
+        height: 30vh;
+    }
 }
 
 @media screen and (max-width:375px) {
@@ -313,9 +316,6 @@ footer a {
 
     header nav ol li a {
         font-size: .3em;
-    }
-    .about-img {
-        height: 30vh;
     }
 }
 
