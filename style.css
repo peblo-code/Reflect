@@ -261,6 +261,9 @@ footer a {
     header nav ol li a {
         font-size: .4em;
     }
+    .hero {
+        height: 50vh;
+    }
 
     .hero-text {
         font-size: initial;
