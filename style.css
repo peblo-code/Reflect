@@ -315,7 +315,7 @@ footer a {
         font-size: .3em;
     }
     .about-img {
-        height: 50vh;
+        height: 30vh;
     }
 }
 
@@ -325,8 +325,5 @@ footer a {
     }
     .container {
         margin: 0 1em 0;
-    }
-    .about-img {
-        height: 30vh;
     }
 }
