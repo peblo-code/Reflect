@@ -1,5 +1,4 @@
 # Reflect
-Te doy la bienvenida! :D, no hay derechos reservados para esta Plantilla, puedes hacer lo que quieras con ella. Disfrútala!!!
-Designed and Developed by ZackSten
+Te doy la bienvenida!, puedes hacer lo que quieras con la plantilla.
 
 Página de Ejemplo: https://peblo-code.github.io/Reflect/
